@@ -1,0 +1,189 @@
+@media (max-width: 1200px) {
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .header {
+        &__title {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__subtitle {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__button {
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            width: 200px;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 24px 12px 24px;
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0%;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 32px;
+        &__title {
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: left;
+       }
+        &__img {
+            height: 300px;
+            width: 100%;
+        }
+        &__content {
+            display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 30px;
+        box-shadow: 0px 12.61px 42.2511901855px -7.57px rgba(0, 0, 0, 0.13);
+        background: rgb(255, 255, 255);
+        width: calc(50% - 16px);
+        height: 480px;
+        }
+    }
+    .card-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        display: contents;
+    }
+    .card-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        display: contents;
+    }
+    .games {
+        &__title {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+    .minigames {
+        display: flex;
+        flex-direction: row;
+        &__title {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+    .card-mini {
+        display: flex;
+        gap: 32px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__title {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__subtitle {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-top: 12px;
+            padding-bottom: 18px;
+        }
+        &__img {
+            height: 300px;
+            width: 360px;
+        }
+        &__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: auto;
+        }
+        &__content {
+            height: auto;
+            width: 780px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 32px;
+            box-sizing: border-box;
+        }
+        &__button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 40px 8px 40px;
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0%;
+            text-align: center;
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            text-decoration: none;
+        }
+        &__button:hover {
+            background-color: inherit;
+        }
+    }
+}

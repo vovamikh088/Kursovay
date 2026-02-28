@@ -1,0 +1,151 @@
+@media (max-width: 833px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        background-image: url(img/star1m.svg), url(img/star2m.svg), url(img/star3m.svg), url(img/star4m.svg), url(img/star5m.svg);
+        background-repeat: no-repeat;
+        background-position: 37px 97px, 91px 64px, 273px 557px, 304px 580px, 290px 40px;
+        display: flex;
+        justify-content: center;
+
+        &__content {
+            width: 343px;
+            gap: 36px;
+            align-items: center;
+        }
+
+        &__box {
+            max-width: 296px;
+            align-items: center;
+        }
+
+        &__title {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__subtitle {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__button {
+            box-sizing: border-box;
+            border: 1px solid rgba(32, 32, 39, 1);
+            border-radius: 60px;
+            background: rgba(32, 32, 39, 1);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            padding-left: 103.5px;
+            padding-right: 103.5px;
+        }
+    }
+
+    .text {
+        &__content {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+    }
+    .games {
+        display: none;
+    }
+    .minigames {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+    .card-mini {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        align-items: center;
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 30px;
+            box-shadow: 0px 11.44px 38.33903884887695px -6.87px rgba(0, 0, 0, 0.13);
+            background: rgba(255, 255, 255, 1);
+            width: 343px;
+        }
+        &__title {
+            color: rgba(32, 32, 39, 1);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__subtitle {
+            color: rgba(0, 0, 0, 1);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__img {
+            width: 343px;
+            height: 284.93px;
+        }
+        &__box {
+            width: 284.93px;
+            padding: 29px;
+            padding-bottom: 33px;
+        }
+        &__button {
+            width: 285px;
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10;
+            padding: 16px 28px 16px 28px;
+            box-sizing: border-box;
+            border: 1px solid rgba(32, 32, 39, 1);
+            border-radius: 60px;
+            background: rgba(32, 32, 39, 1);
+            color: rgba(255, 255, 255, 1);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
+}
