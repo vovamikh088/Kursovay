@@ -5,16 +5,19 @@
     }
 
     .header {
-        background-image: url(img/star1m.svg), url(img/star2m.svg), url(img/star3m.svg), url(img/star4m.svg), url(img/star5m.svg);
-        background-repeat: no-repeat;
-        background-position: 37px 97px, 91px 64px, 273px 557px, 304px 580px, 290px 40px;
         display: flex;
         justify-content: center;
+        padding-top: 147px;
+        padding-bottom: 131px;
+        background-image: url("img/star1m.svg"), url("img/star2m.svg"), url("img/star3m.svg"), url("img/star4m.svg"), url("img/star5m.svg");
+        background-repeat: no-repeat;
+        background-position: 37px 97px, 91px 64px, right 40px bottom 120px, right 12px bottom 90px, right 16px top 40px;
 
         &__content {
-            width: 343px;
-            gap: 36px;
+            width: 100%;
+            max-width: 343px;
             align-items: center;
+            gap: 36px;
         }
 
         &__box {
@@ -23,129 +26,99 @@
         }
 
         &__title {
-            color: rgba(32, 32, 39, 1);
-            font-family: Montserrat;
             font-size: 40px;
-            font-weight: 700;
-            line-height: 100%;
-            letter-spacing: 0px;
             text-align: center;
         }
 
         &__subtitle {
-            color: rgba(32, 32, 39, 1);
-            font-family: Montserrat;
             font-size: 16px;
             font-weight: 500;
-            line-height: 100%;
-            letter-spacing: 0px;
+            line-height: 1.4;
             text-align: center;
         }
 
         &__button {
-            box-sizing: border-box;
-            border: 1px solid rgba(32, 32, 39, 1);
-            border-radius: 60px;
-            background: rgba(32, 32, 39, 1);
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: auto;
-            padding-left: 103.5px;
-            padding-right: 103.5px;
-        }
-    }
-
-    .text {
-        &__content {
-            padding-top: 16px;
-            padding-bottom: 16px;
-        }
-
-        &__title {
+            width: 100%;
+            min-height: 55px;
+            padding: 16px 28px;
             font-size: 16px;
+            line-height: 20px;
         }
     }
+
+    .ticker {
+        padding: 16px 0;
+
+        &__track {
+            gap: 27px;
+        }
+
+        &__item {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
     .games {
         display: none;
     }
+
     .minigames {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-image: none;
+
         &__title {
-            color: rgba(255, 255, 255, 1);
-            font-family: Montserrat;
+            padding-bottom: 48px;
             font-size: 40px;
-            font-weight: 700;
-            line-height: 100%;
-            letter-spacing: 0px;
-            text-align: left;
         }
     }
+
     .card-mini {
-        display: flex;
-        gap: 32px;
-        flex-direction: column;
-        align-items: center;
-        &__content {
-            display: flex;
+        gap: 24px;
+
+        &__content,
+        .reverse {
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            border-radius: 30px;
-            box-shadow: 0px 11.44px 38.33903884887695px -6.87px rgba(0, 0, 0, 0.13);
-            background: rgba(255, 255, 255, 1);
-            width: 343px;
         }
-        &__title {
-            color: rgba(32, 32, 39, 1);
-            font-family: Montserrat;
-            font-size: 32px;
-            font-weight: 700;
-            line-height: 100%;
-            letter-spacing: 0px;
-            text-align: left;
+
+        &__content {
+            width: 100%;
         }
-        &__subtitle {
-            color: rgba(0, 0, 0, 1);
-            font-family: Montserrat;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 100%;
-            letter-spacing: 0px;
-            text-align: left;
-        }
+
         &__img {
-            width: 343px;
-            height: 284.93px;
+            width: 100%;
+            height: auto;
         }
+
         &__box {
-            width: 284.93px;
             padding: 29px;
-            padding-bottom: 33px;
         }
-        &__button {
-            width: 285px;
-            height: 55px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 10;
-            padding: 16px 28px 16px 28px;
-            box-sizing: border-box;
-            border: 1px solid rgba(32, 32, 39, 1);
-            border-radius: 60px;
-            background: rgba(32, 32, 39, 1);
-            color: rgba(255, 255, 255, 1);
-            font-family: Montserrat;
+
+        &__title {
+            font-size: 32px;
+        }
+
+        &__subtitle {
             font-size: 16px;
-            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        &__button {
+            width: 100%;
+            min-width: 0;
+            min-height: 55px;
+            font-size: 16px;
             line-height: 20px;
-            letter-spacing: 0%;
-            text-align: center;
+        }
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &__title {
+            font-size: 16px;
         }
     }
 }
